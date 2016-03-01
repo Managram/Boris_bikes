@@ -16,7 +16,7 @@ Object              - Message
 -person
 - docking_station   -release_bike
 
-person => docking_station => release_bike => bike
+person => docking_station <= release_bike => bike
 
 Story 2
 
@@ -32,4 +32,4 @@ object      Message
 - person
 - bike      - bike_is_working
 
-person => bike_is_working => bike
+bike => bike_is_working <=> true/false
