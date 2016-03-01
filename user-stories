@@ -33,3 +33,46 @@ object      Message
 - bike      - bike_is_working
 
 bike => bike_is_working <=> true/false
+
+Story 3
+
+noun
+- member of public
+- bike
+- docking_station
+
+Verbs
+
+- return
+- dock
+
+object    Message
+--------------------------------
+member_of_public return
+bike
+docking_station dock
+
+member_of_public => return <=> bike => docking_station => dock <=> bike
+
+
+Story 4
+
+noun
+- member of public
+- docking_station
+- bike
+
+Verbs
+- use
+- see
+- docked
+
+
+object    Message
+---------------------------------
+member_of_public use dock
+bike              
+docking_station
+
+member_of_public <=> use => docking_station
+member_of_public <=> dock => bike
