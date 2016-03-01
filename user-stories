@@ -1,0 +1,31 @@
+User stories
+
+Story 1
+
+nouns
+- person
+- bike
+- docking_station
+
+verbs
+-release_bike
+
+Object              - Message
+-------------------------------
+-bike
+-person
+- docking_station   -release_bike
+
+Story 2
+
+noun
+- person
+- bike
+
+Verbs
+- bike_is_working
+
+object      Message
+---------------------------------
+- person
+- bike      - bike_is_working
